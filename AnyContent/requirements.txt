@@ -1,0 +1,7 @@
+# Requirements for AnyContent.py (v0.5)
+# Install with: pip install -r requirements.txt
+
+pypdf>=3.0.0          # PDF annotation search (modern API). PyPDF2 used as fallback if unavailable.
+pdfminer.six>=20221105  # PDF text content extraction
+beautifulsoup4>=4.11.0  # DOCX (word/document.xml) parsing
+lxml>=4.9.0             # XML parser backend required by BeautifulSoup(..., 'xml')

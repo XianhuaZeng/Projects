@@ -1,0 +1,11 @@
+# Requirements for Shell2TOC.py (v2.0)
+# Install with: pip install -r requirements.txt
+
+python-docx>=0.8.11    # Read DOCX headings/paragraphs/tables (imported as `docx`)
+docxpy>=0.8.5           # Extract TOC text from DOCX (used for the Table of Contents field)
+xlsxwriter>=3.0.0       # Write TOC.xlsx
+openpyxl>=3.0.0         # Read/update Tracker.xlsx
+xlrd>=2.0.1             # Read back TOC.xlsx rows when handling repeat blocks
+pywin32>=305            # Word COM automation (win32com.client.DispatchEx) -- Windows only,
+                        # used as a fallback when docxpy cannot extract text directly
+                        # (e.g. password-protected or legacy-format DOCX)

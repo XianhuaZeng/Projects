@@ -1,0 +1,10 @@
+# Requirements for ContentMask.py (v1.0)
+# Install with: pip install -r requirements.txt
+
+openpyxl>=3.0.0        # Read/write XLSX masking
+python-docx>=0.8.11    # Read/write DOCX masking (imported as `docx`)
+pdfplumber>=0.10.0      # Extract text coordinates from PDF for redaction
+PyMuPDF>=1.23.0         # Apply redactions and re-insert masked text in PDF (imported as `fitz`)
+PyPDF2>=3.0.0           # PDF text extraction for verification (PdfReader)
+pywin32>=305            # Word COM automation (win32com.client.DispatchEx) -- Windows only,
+                        # used for DOCX files whose name contains "统计分析报告" or "sap"
