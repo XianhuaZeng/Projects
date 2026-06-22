@@ -8,19 +8,23 @@ Downloaded PDFs are organized into folders by session category and renamed with 
 
 ---
 
-## Getting Started
+## Installation
 
-### Option 1: Run the EXE (Windows, no Python required)
+### Option 1: Standalone EXE (Windows, no Python required)
 
-Download `PharmaSUGProceedings.exe` directly from this repository and run it.
+Download `PharmaSUGProceedings.exe` directly from this repository and run it — no installation needed.
 
-### Option 2: Run the Python script
+### Option 2: Python script
 
-Requires Python 3.8+. Install dependencies first:
+Requires Python 3.8+.
 
 ```bash
+git clone https://github.com/XianhuaZeng/Projects.git
+cd Projects/PharmaSUGProceedings
 pip install -r requirements.txt
 ```
+
+Key dependency: `requests`.
 
 ---
 

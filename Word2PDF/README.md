@@ -34,8 +34,8 @@ A Windows desktop GUI tool to convert Word/RTF documents to PDF, combine multipl
 ## Installation
 
 ```bash
-git clone https://github.com/XianhuaZeng/PharmaSUG.git
-cd PharmaSUG/2026/Word2PDF
+git clone https://github.com/XianhuaZeng/Projects.git
+cd Projects/Word2PDF
 pip install -r requirements.txt
 ```
 

@@ -29,8 +29,8 @@ A Windows desktop GUI tool to detect duplicate code blocks between Main and QC S
 ## Installation
 
 ```bash
-git clone https://github.com/XianhuaZeng/PharmaSUG.git
-cd PharmaSUG/2026/DupChecker
+git clone https://github.com/XianhuaZeng/Projects.git
+cd Projects/DupChecker
 pip install -r requirements.txt
 ```
 
