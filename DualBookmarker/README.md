@@ -36,20 +36,15 @@ DualBookmarker replaces that workflow with a single Python script: it reads the 
 
 | Requirement | Notes |
 |---|---|
-| Windows / macOS / Linux | Cross-platform (GUI uses Tkinter) |
-| Python 3.8+ | |
+| Windows | |
 
 ---
 
 ## Installation
 
-```bash
-git clone https://github.com/XianhuaZeng/Projects.git
-cd Projects/DualBookmarker
-pip install -r requirements.txt
-```
+No Python installation is required.
 
-Key dependency: `PyMuPDF`.
+Download the latest executable and run it directly.
 
 ---
 
@@ -66,13 +61,7 @@ DualBookmarker needs two PDFs placed in the same folder, with these exact names:
 
 ## Usage
 
-### GUI mode
-
-Double-click `DualBookmarker.py`, or run:
-
-```bash
-python DualBookmarker.py
-```
+Double-click `DualBookmarker.exe` to launch the application.
 
 ![GUI screenshot](docs/screenshot.png)
 

@@ -21,30 +21,21 @@ A Windows desktop GUI tool to detect duplicate code blocks between Main and QC S
 
 | Requirement | Notes |
 |---|---|
-| Windows | GUI uses tkinter (bundled with Python) |
-| Python 3.8+ | |
+| Windows | |
 
 ---
 
 ## Installation
 
-```bash
-git clone https://github.com/XianhuaZeng/Projects.git
-cd Projects/DupChecker
-pip install -r requirements.txt
-```
+No Python installation is required.
 
-Key dependency: `xlsxwriter`.
+Download the latest executable and run it directly.
 
 ---
 
 ## Usage
 
-Double-click `DupChecker.py`, or run:
-
-```bash
-python DupChecker.py
-```
+Double-click `DupChecker.exe` to launch the application.
 
 ![GUI screenshot](docs/screenshot.png)
 

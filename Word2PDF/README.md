@@ -27,29 +27,20 @@ A Windows desktop GUI tool to convert Word/RTF documents to PDF, combine multipl
 |---|---|
 | Windows | Word COM automation is Windows-only |
 | Microsoft Word | Must be installed (any version supporting `.ExportAsFixedFormat`) |
-| Python 3.8+ | |
 
 ---
 
 ## Installation
 
-```bash
-git clone https://github.com/XianhuaZeng/Projects.git
-cd Projects/Word2PDF
-pip install -r requirements.txt
-```
+No Python installation is required.
 
-Key dependencies: `pywin32`, `openpyxl`, `xlrd`, `xlsxwriter`, `PyPDF2`.
+Download the latest executable and run it directly.
 
 ---
 
 ## Usage
 
-Double-click `word2pdf.py`, or run:
-
-```bash
-python word2pdf.py
-```
+Double-click `Word2PDF.exe` to launch the application.
 
 ![GUI screenshot](docs/screenshot.png)
 
